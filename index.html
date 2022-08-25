@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing - Bonsai Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="main-navigation">
+      <div class="logo">
+        <img src="/images/bonsai-logo.svg" alt="logo" />
+      </div>
+      <div class="main-navigation-menu">
+        <div class="main-nav-link-dropdown dropdown">
+          <div class="main-nav-dropdown-toggle">Product</div>
+          <div class="dropdown-arrow">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMZJREFUSEvtk80NwjAMRj9D2aPdJNx76AQIJoFNmm5QKeLMKt0DoiAfkKLQYBepEkjpqT/Oe/HnhrDyRSvzUQRiwiWiH4+obQ/nqtoM42inua123bH2HsY5a3OtZIfMcBBdAjDttrRPJQx/+NADMAQ65SRZAQPuPtwIqFNJDOdvVzc0izvgBXMSfv/auQTnWvEcpBICeB5GA1cJ0k74WQtXC2IJ33/KPJ2FGFG8gOPK/bJfDVk8poqCRR0oeG8lRSCm9v8RPQG23lwZhrTfvwAAAABJRU5ErkJggg=="
+            />
+          </div>
+          <div class="dropdown-content">
+            <div class="dropdown-item">
+              <div class="dropdown-item-title">Bonsai Workflow</div>
+              <div class="dropdown-item-description">
+                Look professional, win more clients and manage your business
+                from one place
+              </div>
+            </div>
+            <div class="dropdown-item">
+              <div class="dropdown-item-title">Bonsai Tax</div>
+              <div class="dropdown-item-description">
+                Track expenses, maximize tax write-offs, and estimate taxes
+                without the headache
+              </div>
+            </div>
+            <div class="dropdown-item">
+              <div class="dropdown-item-title">Bonsai Cash</div>
+              <div class="dropdown-item-description">
+                Bonsai's all-in-one financial hub: No fees and lightning fast
+                payouts
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-nav-link-dropdown templates-dropdown">
+          <div class="main-nav-dropdown-toggle">Templates</div>
+          <div class="dropdown-arrow">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMZJREFUSEvtk80NwjAMRj9D2aPdJNx76AQIJoFNmm5QKeLMKt0DoiAfkKLQYBepEkjpqT/Oe/HnhrDyRSvzUQRiwiWiH4+obQ/nqtoM42inua123bH2HsY5a3OtZIfMcBBdAjDttrRPJQx/+NADMAQ65SRZAQPuPtwIqFNJDOdvVzc0izvgBXMSfv/auQTnWvEcpBICeB5GA1cJ0k74WQtXC2IJ33/KPJ2FGFG8gOPK/bJfDVk8poqCRR0oeG8lRSCm9v8RPQG23lwZhrTfvwAAAABJRU5ErkJggg=="
+            />
+            <div class="templates-dropdown-content">
+              <div class="templates-dropdown-left">
+                <div class="templates-dropdown-item">
+                  <div class="templates-dropdown-item-title">
+                    Contract Templates
+                  </div>
+                </div>
+                <div class="templates-dropdown-item">
+                  <div class="templates-dropdown-item-title">
+                    Proposal Templates
+                  </div>
+                </div>
+                <div class="templates-dropdown-item">
+                  <div class="templates-dropdown-item-title">
+                    Invoice Templates
+                  </div>
+                </div>
+                <div class="templates-dropdown-item">
+                  <div class="templates-dropdown-item-title">
+                    Agreement Templates
+                  </div>
+                </div>
+                <div class="templates-dropdown-item">
+                  <div class="templates-dropdown-item-title">
+                    Quote Templates
+                  </div>
+                </div>
+                <div class="templates-dropdown-item">
+                  <div class="templates-dropdown-item-title">
+                    Scope of Work Templates
+                  </div>
+                </div>
+                <div class="templates-dropdown-item">
+                  <div class="templates-dropdown-item-title">
+                    Brief Templates
+                  </div>
+                </div>
+              </div>
+              <div class="templates-dropdown-right">
+                <div class="templates-dropdown-right-item">
+                  <div class="templates-dropdown-right-item-title">
+                    Featured Contract Templates
+                  </div>
+                  <div class="templates-dropdown-right-item-box">
+                    Free Contract Maker
+                  </div>
+                  <div class="templates-dropdown-right-item-box">
+                    Social Media Management Contract Template
+                  </div>
+                  <div class="templates-dropdown-right-item-box">
+                    Graphic Design Contract Template
+                  </div>
+                  <div class="templates-dropdown-right-item-box">
+                    Digital Marketing Contract Template
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="/" class="main-nav-link">Pricing</a>
+        <a href="/" class="main-nav-link">Reviews</a>
+      </div>
+      <div class="main-navigation-account">
+        <button class="login">Log In</button>
+        <button class="free-trial">Start Free</button>
+      </div>
+    </nav>
+    <div class="page-wrap">
+      <div class="blue-shape"></div>
+      <div class="container-plans">
+        <div class="section-header">
+          <div class="pricing-plans">
+            <div class="header-left">
+              <h2>Plans & Pricing</h2>
+            </div>
+            <div class="header-right">
+              <div class="monthly-text">Monthly</div>
+              <div class="toggle" onclick="animatedToggle()">
+                <div class="toggle-ball"></div>
+              </div>
+              <div class="yearly-text low-opacity">Yearly</div>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-monthly" style="display: flex">
+          <div class="plan-div">
+            <div class="plan-div-title">Starter</div>
+            <div class="plan-div-description">
+              Ideal for freelancers and contractors just starting out.
+            </div>
+            <div class="price-box">
+              <div class="price">
+                <span class="currency-symbol">$</span>
+                24
+                <span class="per-month">/month</span>
+              </div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>All Templates</li>
+                <li>Unlimited Clients & Projects</li>
+                <li>Invoicing & Payments</li>
+                <li>Proposals & Contracts</li>
+                <li>Tasks & Time Tracking</li>
+                <li>Client CRM</li>
+                <li>Expense Tracking</li>
+                <li>Up to 5 Project Collaborators</li>
+              </ul>
+            </div>
+            <div class="margin-top auto">
+              <button class="button-cta">Start Free</button>
+            </div>
+          </div>
+          <div class="plan-div">
+            <div class="plan-div-title">Professional</div>
+            <div class="plan-div-description">
+              Everything a growing independent business needs to thrive.
+            </div>
+            <div class="price-box">
+              <div class="price">
+                <span class="currency-symbol">$</span>
+                39
+                <span class="per-month">/month</span>
+              </div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>Everything in Starter plus...</li>
+                <li>Custom Branding</li>
+                <li>Forms & Questionnaires</li>
+                <li>Workflow Automations</li>
+                <li>Client Portal</li>
+                <li>QuickBooks Integration</li>
+                <li>Zapier Integration</li>
+                <li>Up to 15 Project Collaborators</li>
+              </ul>
+            </div>
+            <div class="margin-top auto">
+              <button class="button-cta">Start Free</button>
+            </div>
+            <!-- <div class="popular-tag">
+            <div>MOST&nbsp;POPULAR</div>
+          </div> -->
+          </div>
+          <div class="plan-div">
+            <div class="plan-div-title">Business</div>
+            <div class="plan-div-description">
+              The perfect package for small businesses and agencies.
+            </div>
+            <div class="price-box">
+              <div class="price">
+                <span class="currency-symbol">$</span>
+                79
+                <span class="per-month">/month</span>
+              </div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>Everything in Starter and Professional plus...</li>
+                <li>Subcontractor Management</li>
+                <li>Hiring Agreement Templates (1099 contracts)</li>
+                <li>Subcontractor Onboarding</li>
+                <li>Talent Pool</li>
+                <li>3 Team Seats (additional seats $9/month)</li>
+                <li>Accountant Access</li>
+                <li>Connect Multiple Bank Accounts</li>
+                <li>Unlimited Subcontractors</li>
+                <li>Unlimited Project Collaborators</li>
+              </ul>
+            </div>
+            <div class="margin-top auto">
+              <button class="button-cta">Start Free</button>
+            </div>
+          </div>
+          <div class="add-ons">
+            <div class="add-ons-header">
+              <h2>Super charge your work with add-ons</h2>
+            </div>
+            <div class="add-ons-container">
+              <div class="add-on-box">
+                <div class="left-add-on-content">
+                  <div class="heading">Collaborators</div>
+                  <div class="add-on-description">
+                    Invite other users to specific projects for limited access
+                    and functionality.
+                  </div>
+                </div>
+                <div class="right-add-on-content">
+                  <div class="cost">Free</div>
+                </div>
+              </div>
+              <div class="add-on-box">
+                <div class="left-add-on-content">
+                  <div class="heading">Partners</div>
+                  <div class="add-on-description">
+                    Invite other users for full account access and company
+                    management.
+                  </div>
+                </div>
+                <div class="right-add-on-content">
+                  <div class="cost">$9</div>
+                  <div class="under-text">/MONTH</div>
+                </div>
+              </div>
+              <div class="add-on-box">
+                <div class="left-add-on-content">
+                  <div class="heading">Bonsai Tax</div>
+                  <div class="add-on-description">
+                    Track expenses, identify write-offs, and estimate quarterly
+                    taxes easily.
+                  </div>
+                </div>
+                <div class="right-add-on-content">
+                  <div class="cost">$10</div>
+                  <div class="under-text">/MONTH</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-yearly" style="display: none">
+          <div class="plan-div">
+            <div class="plan-div-title">Starter</div>
+            <div class="plan-div-description">
+              Ideal for freelancers and contractors just starting out.
+            </div>
+            <div class="price-box">
+              <div class="price">
+                <span class="currency-symbol">$</span>
+                17
+                <span class="per-month">/month</span>
+              </div>
+              <div class="billed-yearly-text">Billed yearly</div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>All Templates</li>
+                <li>Unlimited Clients & Projects</li>
+                <li>Invoicing & Payments</li>
+                <li>Proposals & Contracts</li>
+                <li>Tasks & Time Tracking</li>
+                <li>Client CRM</li>
+                <li>Expense Tracking</li>
+                <li>Up to 5 Project Collaborators</li>
+              </ul>
+            </div>
+            <div class="margin-top auto">
+              <button class="button-cta">Start Free</button>
+            </div>
+          </div>
+          <div class="plan-div">
+            <div class="plan-div-title">Professional</div>
+            <div class="plan-div-description">
+              Everything a growing independent business needs to thrive.
+            </div>
+            <div class="price-box">
+              <div class="price">
+                <span class="currency-symbol">$</span>
+                32
+                <span class="per-month">/month</span>
+              </div>
+              <div class="billed-yearly-text">Billed yearly</div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>Everything in Starter plus...</li>
+                <li>Custom Branding</li>
+                <li>Forms & Questionnaires</li>
+                <li>Workflow Automations</li>
+                <li>Client Portal</li>
+                <li>QuickBooks Integration</li>
+                <li>Zapier Integration</li>
+                <li>Up to 15 Project Collaborators</li>
+              </ul>
+            </div>
+            <div class="margin-top auto">
+              <button class="button-cta">Start Free</button>
+            </div>
+            <!-- <div class="popular-tag">
+            <div>MOST&nbsp;POPULAR</div>
+          </div> -->
+          </div>
+          <div class="plan-div">
+            <div class="plan-div-title">Business</div>
+            <div class="plan-div-description">
+              The perfect package for small businesses and agencies.
+            </div>
+            <div class="price-box">
+              <div class="price">
+                <span class="currency-symbol">$</span>
+                52
+                <span class="per-month">/month</span>
+              </div>
+              <div class="billed-yearly-text">Billed yearly</div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>Everything in Starter and Professional plus...</li>
+                <li>Subcontractor Management</li>
+                <li>Hiring Agreement Templates (1099 contracts)</li>
+                <li>Subcontractor Onboarding</li>
+                <li>Talent Pool</li>
+                <li>3 Team Seats (additional seats $9/month)</li>
+                <li>Accountant Access</li>
+                <li>Connect Multiple Bank Accounts</li>
+                <li>Unlimited Subcontractors</li>
+                <li>Unlimited Project Collaborators</li>
+              </ul>
+            </div>
+            <div class="margin-top auto">
+              <button class="button-cta">Start Free</button>
+            </div>
+          </div>
+          <div class="add-ons">
+            <div class="add-ons-header">
+              <h2>Customize your workflow with add-ons</h2>
+            </div>
+            <div class="add-ons-container">
+              <div class="add-on-box">
+                <div class="left-add-on-content">
+                  <div class="heading">Accounting & Tax Assistant</div>
+                  <div class="add-on-description">
+                    Manage your freelance finances and always be ready for tax
+                    season with easy-to-use accounting and tax tools.
+                  </div>
+                </div>
+                <div class="right-add-on-content">
+                  <div class="cost">$100</div>
+                  <div class="under-text">/YEAR</div>
+                </div>
+              </div>
+              <div class="add-on-box">
+                <div class="left-add-on-content">
+                  <div class="heading">Partners</div>
+                  <div class="add-on-description">
+                    Invite other users for full account access and company
+                    management.
+                  </div>
+                </div>
+                <div class="right-add-on-content">
+                  <div class="cost">$90</div>
+                  <div class="under-text">/YEAR</div>
+                </div>
+              </div>
+              <div class="add-on-box">
+                <div class="left-add-on-content">
+                  <div class="heading">Collaborators</div>
+                  <div class="add-on-description">
+                    Invite other users to specific projects for limited access
+                    and functionality.
+                  </div>
+                </div>
+                <div class="right-add-on-content">
+                  <div class="cost">Free</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cta">
+        <div class="cta-text">
+          It's <span class="emphasis">your</span> business.<br />
+          We're here to help it grow.
+        </div>
+        <button class="cta-start-button">Start Free</button>
+      </div>
+      <div class="faq-section">
+        <div class="faq-header">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="accordion">
+          <h2 class="accordion-header">
+            How does the free trial work?
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMZJREFUSEvtk80NwjAMRj9D2aPdJNx76AQIJoFNmm5QKeLMKt0DoiAfkKLQYBepEkjpqT/Oe/HnhrDyRSvzUQRiwiWiH4+obQ/nqtoM42inua123bH2HsY5a3OtZIfMcBBdAjDttrRPJQx/+NADMAQ65SRZAQPuPtwIqFNJDOdvVzc0izvgBXMSfv/auQTnWvEcpBICeB5GA1cJ0k74WQtXC2IJ33/KPJ2FGFG8gOPK/bJfDVk8poqCRR0oeG8lRSCm9v8RPQG23lwZhrTfvwAAAABJRU5ErkJggg=="
+            />
+          </h2>
+          <div class="panel pricingpage">
+            <p>
+              When you start your trial with Bonsai you'll receive full,
+              unlimited access to all of Bonsai's workflow or Workflow Plus
+              Features! You will need to enter your credit card information to
+              begin your trial, but don't worry - we won't charge you anything
+              until the subscription ends! If you wish to cancel at any time
+              during the trial period, you can do so through your Subscriptions
+              Settings Page.
+            </p>
+          </div>
+        </div>
+        <div class="accordion">
+          <h2 class="accordion-header">
+            Can I change plans anytime?
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMZJREFUSEvtk80NwjAMRj9D2aPdJNx76AQIJoFNmm5QKeLMKt0DoiAfkKLQYBepEkjpqT/Oe/HnhrDyRSvzUQRiwiWiH4+obQ/nqtoM42inua123bH2HsY5a3OtZIfMcBBdAjDttrRPJQx/+NADMAQ65SRZAQPuPtwIqFNJDOdvVzc0izvgBXMSfv/auQTnWvEcpBICeB5GA1cJ0k74WQtXC2IJ33/KPJ2FGFG8gOPK/bJfDVk8poqCRR0oeG8lRSCm9v8RPQG23lwZhrTfvwAAAABJRU5ErkJggg=="
+            />
+          </h2>
+          <div class="panel pricingpage">
+            <p>
+              Yes, you can from within your account. If you have already
+              subscribed to a plan, or want to downgrade or upgrade your current
+              one, you can do this by going to your "Settings" and
+              "Subscription".
+            </p>
+          </div>
+        </div>
+        <div class="accordion">
+          <h2 class="accordion-header">
+            How do I pause my Bonsai subscription?
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMZJREFUSEvtk80NwjAMRj9D2aPdJNx76AQIJoFNmm5QKeLMKt0DoiAfkKLQYBepEkjpqT/Oe/HnhrDyRSvzUQRiwiWiH4+obQ/nqtoM42inua123bH2HsY5a3OtZIfMcBBdAjDttrRPJQx/+NADMAQ65SRZAQPuPtwIqFNJDOdvVzc0izvgBXMSfv/auQTnWvEcpBICeB5GA1cJ0k74WQtXC2IJ33/KPJ2FGFG8gOPK/bJfDVk8poqCRR0oeG8lRSCm9v8RPQG23lwZhrTfvwAAAABJRU5ErkJggg=="
+            />
+          </h2>
+          <div class="panel pricingpage">
+            <p>
+              We totally understand that with the nature of freelancing, work
+              ebbs and flows so you might not always need your Bonsai
+              subscription to remain active! The good news is that you can
+              cancel or pause your monthly subscription at any time without
+              penalty. Once cancelled, you'll be able to continue logging in to
+              access all your documents and even continue to use our free
+              features, like Time Tracking! In order to cancel your
+              subscription, login to your Bonsai account.
+            </p>
+          </div>
+        </div>
+        <div class="accordion">
+          <h2 class="accordion-header">
+            What is your refund policy?
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMZJREFUSEvtk80NwjAMRj9D2aPdJNx76AQIJoFNmm5QKeLMKt0DoiAfkKLQYBepEkjpqT/Oe/HnhrDyRSvzUQRiwiWiH4+obQ/nqtoM42inua123bH2HsY5a3OtZIfMcBBdAjDttrRPJQx/+NADMAQ65SRZAQPuPtwIqFNJDOdvVzc0izvgBXMSfv/auQTnWvEcpBICeB5GA1cJ0k74WQtXC2IJ33/KPJ2FGFG8gOPK/bJfDVk8poqCRR0oeG8lRSCm9v8RPQG23lwZhrTfvwAAAABJRU5ErkJggg=="
+            />
+          </h2>
+          <div class="panel pricingpage">
+            <p>
+              If you contact us within 2 weeks of being charged for your
+              subscription, we will be happy to issue a refund for you! Beyond
+              those 2 weeks, you will need to cancel or modify the subscription
+              from the Subscriptions Tab in Settings to avoid future charges,
+              but refunds will not be issued. This applies to both monthly and
+              annual plans.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="footer-section">
+      <div class="footer-link-holder">
+        <div class="footer-block">
+          <div class="footer-block-title">PRODUCT</div>
+          <div class="footer-section-block">
+            <a href="/" class="footer-link">Proposals</a>
+            <a href="/" class="footer-link">Contracts</a>
+            <a href="/" class="footer-link">Invoicing</a>
+            <a href="/" class="footer-link">Client CRM</a>
+            <a href="/" class="footer-link">Time Tracking</a>
+            <a href="/" class="footer-link">Task Tracking</a>
+            <a href="/" class="footer-link">Forms</a>
+            <a href="/" class="footer-link">Accounting</a>
+            <a href="/" class="footer-link">Bonsai Tax</a>
+            <a href="/" class="footer-link">Bonsai Cash</a>
+          </div>
+          <div class="footer-section-block">
+            <a href="/" class="footer-link current">Pricing</a>
+            <a href="/" class="footer-link">Bonsai Reviews</a>
+          </div>
+        </div>
+        <div class="footer-block">
+          <div class="footer-block-title">FREE RESOURCES</div>
+          <div class="footer-section-block">
+            <a href="/" class="footer-link">Freelance Resources</a>
+            <a href="/" class="footer-link">Freelance Blog by Bonsai</a>
+            <a href="/" class="footer-link">How to Write a Contract</a>
+            <a href="/" class="footer-link">Online Signature Maker</a>
+          </div>
+          <div class="footer-section-block">
+            <a href="/" class="footer-link">Self-Employed Taxes Hub</a>
+            <a href="/" class="footer-link">Self-Employed Tax Calculator</a>
+            <a href="/" class="footer-link">Self-Employed Tax Deductions</a>
+          </div>
+          <div class="sub-title">Templates</div>
+          <div class="footer-section-block">
+            <a href="/" class="footer-link">Invoice Templates</a>
+            <a href="/" class="footer-link">Proposal Templates</a>
+            <a href="/" class="footer-link">Contract Templates</a>
+            <a href="/" class="footer-link">Agreement Templates</a>
+            <a href="/" class="footer-link">Scope of Work Templates</a>
+            <a href="/" class="footer-link">Quote Templates</a>
+            <a href="/" class="footer-link">Credit Note Templates</a>
+            <a href="/" class="footer-link">Estimate Templates</a>
+          </div>
+        </div>
+        <div class="footer-block last">
+          <div class="footer-block-title">BONSAI</div>
+          <div class="footer-section-block">
+            <a href="/" class="footer-link">About</a>
+            <a href="/" class="footer-link">Careers</a>
+            <a href="/" class="footer-link">Support</a>
+            <a href="/" class="footer-link">LinkedIn</a>
+            <a href="/" class="footer-link">Twitter</a>
+            <a href="/" class="footer-link">Privacy policy</a>
+            <a href="/" class="footer-link">Legal</a>
+          </div>
+          <div class="footer-section-block">
+            <a href="/" class="footer-link">Affiliates</a>
+            <a href="/" class="footer-link">Write for Us</a>
+          </div>
+          <div class="footer-section-block">
+            <a href="/" class="footer-link">Comparisons</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
